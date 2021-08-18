@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'git_gg.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'git-gg',
+        'NAME': 'Cluster0',
         'CLIENT':{
-            'host': 'localhost',
+            'host': 'mongodb+srv://user:user@cluster0.hhgay.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
         }
     }
 }
@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
